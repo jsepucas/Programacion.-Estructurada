@@ -28,3 +28,6 @@ int main() {
     imprimirEstudiante(estudiante1);
     modificarEstudiante(&estudiante1);
     imprimirEstudiante2(&estudiante1);
+
+    return 0;
+}
