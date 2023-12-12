@@ -31,4 +31,11 @@ int main() {
     std::cout << "Edad: " << estudiante1.edad << std::endl;
     std::cout << "Promedio: " << estudiante1.promedio << std::endl << std::endl;
 
+    std::cout << "Copia del Estudiante 1:" << std::endl;
+    std::cout << "Nombre: " << copiaEstudiante1.nombre << std::endl;
+    std::cout << "Edad: " << copiaEstudiante1.edad << std::endl;
+    std::cout << "Promedio: " << copiaEstudiante1.promedio << std::endl;
+
+    return 0;
+}
 
