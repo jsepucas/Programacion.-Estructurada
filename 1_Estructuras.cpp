@@ -34,5 +34,8 @@ int main() {
             case 2:
                 mostrarEstudiantes(listaEstudiantes);
                 break;
+            case 3:
+                eliminarEstudiante(listaEstudiantes);
+                break;
         }
     }
