@@ -32,9 +32,9 @@ EstudianteAlias obtenerCopiaYMostrarAlias(const Estudiante& estudiante) {
 
 int main() {
     Estudiante estudiante1;
-    strcpy(estudiante1.nombre, "Juan");
-    estudiante1.edad = 20;
-    estudiante1.promedio = 8.5;
+    strcpy(estudiante1.nombre, "Marcelo");
+    estudiante1.edad = 22;
+    estudiante1.promedio = 9.5;
     obtenerCopiaYMostrarAlias(estudiante1);
 
     return 0;
