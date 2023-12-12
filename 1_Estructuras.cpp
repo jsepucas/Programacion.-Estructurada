@@ -4,16 +4,16 @@
 
 
 struct Estudiante{
-    char nombre[20];
+    char nombre[30];
     int edad;
     float promedio;
 };
 
 int main(){
     struct Estudiante estudiante1;
-    strcpy(estudiante1.nombre, "Mario");
+    strcpy(estudiante1.nombre, "Juan");
     estudiante1.edad = 18;
-    estudiante1.promedio = 8.47;
+    estudiante1.promedio = 5.34;
 
     struct Estudiante* estudiantePtr;
     estudiantePtr = (struct Estudiante*)malloc(sizeof(struct Estudiante));
@@ -22,9 +22,9 @@ int main(){
         return 1;
     }
 
-    strcpy(estudiantePtr->nombre, "Sergio");
-    estudiantePtr->edad = 19;
-    estudiantePtr->promedio = 5.38;
+    strcpy(estudiantePtr->nombre, "Mario");
+    estudiantePtr->edad = 18;
+    estudiantePtr->promedio = 7.89;
 
     printf("Estudiante 1:\n");
     printf("Nombre: %s\n", estudiante1.nombre);
