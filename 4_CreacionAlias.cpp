@@ -22,3 +22,11 @@ EstudianteAlias obtenerCopiaYMostrarAlias(const Estudiante& estudiante) {
     copiaEstudiante.edad = estudiante.edad;
     copiaEstudiante.promedio = estudiante.promedio;
 
+    std::cout << "\nAlias del Estudiante:" << std::endl;
+    std::cout << "Nombre: " << copiaEstudiante.nombre << std::endl;
+    std::cout << "Edad: " << copiaEstudiante.edad << std::endl;
+    std::cout << "Promedio: " << copiaEstudiante.promedio << std::endl;
+
+    return copiaEstudiante;
+}
+
