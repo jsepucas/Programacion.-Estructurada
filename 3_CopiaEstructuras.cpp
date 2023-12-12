@@ -3,7 +3,19 @@
 
 
 struct Estudiante {
-    char nombre[50];
+    char nombre[20];
     int edad;
     float promedio;
 };
+
+Estudiante copiarEstudiante(const Estudiante& original) {
+    Estudiante copia;
+
+    strcpy(copia.nombre, original.nombre);
+    copia.edad = original.edad;
+    copia.promedio = original.promedio;
+
+    return copia;
+}
+
+
