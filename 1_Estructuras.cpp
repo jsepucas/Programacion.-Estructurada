@@ -37,5 +37,18 @@ int main() {
             case 3:
                 eliminarEstudiante(listaEstudiantes);
                 break;
+            case 4:
+                break;
+            default:
+                cout << "Opcion invalida\n";
+
         }
+    } while (opcion != 4);
+
+    for (Estudiante* est: listaEstudiantes) {
+        free(est) ;
     }
+
+    return 0;
+
+}
