@@ -27,4 +27,12 @@ int main() {
         cin >> opcion;
 
         switch (opcion) {
+
+            case 1 :
+                agregarEstudiante(listaEstudiantes);
+                break;
+            case 2:
+                mostrarEstudiantes(listaEstudiantes);
+                break;
+        }
     }
